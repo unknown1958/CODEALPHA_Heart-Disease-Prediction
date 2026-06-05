@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>She Can Foundation | Contact Form</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page">
+    <div class="card">
+      <header class="card-header">
+        <div>
+          <div class="logo">She<span>Can</span> Foundation</div>
+          <p class="subtitle">Full Stack Development Internship Task</p>
+        </div>
+      </header>
+
+      <main>
+        
+
+        <form id="contactForm" novalidate>
+          <label>
+            Name
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your full name"
+              required
+            />
+            <span class="field-error" id="nameError"></span>
+          </label>
+
+          <label>
+            Email
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="you@example.com"
+              required
+            />
+            <span class="field-error" id="emailError"></span>
+          </label>
+
+          <label>
+            Message
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="Write your message here..."
+              required
+            ></textarea>
+            <span class="field-error" id="messageError"></span>
+          </label>
+
+          <button type="submit" class="btn-primary">Submit</button>
+
+          <p id="formStatus" class="form-status" aria-live="polite"></p>
+        </form>
+      </main>
+
+      <p class="note">
+        🌱 Built for She Can Foundation to give every student a fair chance to
+        explore full stack development in a simple, supportive way.
+      </p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
