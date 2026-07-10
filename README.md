@@ -12,17 +12,3 @@ A machine learning project to predict the presence of heart disease using patien
 - Random Forest
 - XGBoost
 
-## Project Structure
-
-Data/
-notebook/
-src/
-models/
-
-## Status
-
-- ✅ Data Cleaning
-- ✅ Exploratory Data Analysis
-- ⏳ Model Training
-- ⏳ Model Evaluation
-- ⏳ Streamlit Application
